@@ -1,9 +1,3 @@
-* {
-  padding: 0;
-  margin: 0;
-  box-sizing: border-box;
-}
-
 :root {
   --mainColor: #dddddd;
   --mainColorLight: #eeeeee;
@@ -38,6 +32,7 @@ header .nav-btn {
   border: none;
   outline: none;
   color: var(--textColor);
+  opacity: 0;
   font-size: 1.8rem;
 }
 
