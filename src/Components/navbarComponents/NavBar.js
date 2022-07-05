@@ -5,46 +5,46 @@ import './NavBarStyles.css';
 // import {useRef} from "react";
 
 function NavBar() {
-    const [active, setActive] = useState("nav__menu");
-  const [icon, setIcon] = useState("nav__toggler");
+    const [active, setActive] = useState("nav-menu");
+  const [icon, setIcon] = useState("nav-toggler");
   const navToggle = () => {
-    if (active === "nav__menu") {
-      setActive("nav__menu nav__active");
-    } else setActive("nav__menu");
+    if (active === "nav-menu") {
+      setActive("nav-menu nav-active");
+    } else setActive("nav-menu");
 
     // Icon Toggler
-    if (icon === "nav__toggler") {
-      setIcon("nav__toggler toggle");
-    } else setIcon("nav__toggler");
+    if (icon === "nav-toggler") {
+      setIcon("nav-toggler toggle");
+    } else setIcon("nav-toggler");
   };
   return (
     <nav className="nav">
-      <a href="/#" className="nav__brand">
+      <a href="/#" className="nav-brand">
         Lentera Fajar Indonesia
       </a>
       <ul className={active}>
-        <li className="nav__item">
-          <a href="/#" className="nav__link">
+        <li className="nav-item">
+          <a href="/#" className="nav-link">
             Home
           </a>
         </li>
-        <li className="nav__item">
-          <a href="/#" className="nav__link">
+        <li className="nav-item">
+          <a href="/#" className="nav-link">
             Tentang Kami
           </a>
         </li>
-        <li className="nav__item">
-          <a href="/#" className="nav__link">
-            Artikel
+        <li className="nav-item">
+          <a href="/#" className="nav-link">
+            Artikel Sekolah
           </a>
         </li>
-        <li className="nav__item">
-          <a href="/#" className="nav__link">
-            Guru
+        <li className="nav-item">
+          <a href="/#" className="nav-link">
+            Guru Sekolah
           </a>
         </li>
-        <li className="nav__item">
-          <a href="/#" className="nav__link">
+        <li className="nav-item">
+          <a href="/#" className="nav-link">
             Kegiatan Sekolah
           </a>
         </li>

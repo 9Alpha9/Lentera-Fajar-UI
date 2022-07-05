@@ -1,1 +1,15 @@
-/*# sourceMappingURL=ContentWrapper.css.map */
+.contentWrapper {
+  padding: 50px 120px;
+  background-color: coral;
+}
+
+@media screen and (max-width: 768px) {
+  .contentWrapper {
+    padding: 50px 30px;
+  }
+}
+@media screen and (max-width: 1000px) {
+  .contentWrapper {
+    padding: 50px 30px;
+  }
+}/*# sourceMappingURL=ContentWrapper.css.map */

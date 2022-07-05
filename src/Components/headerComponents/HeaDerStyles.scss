@@ -1,5 +1,11 @@
 :root{
     --mainBackground: #929487;
+    --mainColor: #ffffff;
+    --mainColorLight: #eeeeee;
+    --secondaryColor: #343e3d;
+    --textColor: #1a1f1e;
+    --textHoverColor: #A07E03;
+    --hoverMotionColor: #F46036;
 }
 
 
@@ -36,7 +42,7 @@
   .swiper-slide img {
     display: block;
     width: 100%;
-    height: 100vh;
+    height: 99vh;
     object-fit: cover;
     background-repeat: no-repeat;
   }
@@ -46,6 +52,10 @@
     margin: 10px 0;
     color: red;
     font-size: 45px;
+    z-index: 2;
+    align-items: center;
+    text-align: center;
+    margin: 40px 0px;
   }
   
 
@@ -65,7 +75,34 @@
 //     width: 4px;
 //   }
 
-  .swiper-pagination-bullet-active{
-    background-color: aqua;
-    color: #fff;
-  }
+//* SWIPER BULLET PAGINATION *
+    .swiper-horizontal>.swiper-pagination-bullets .swiper-pagination-bullet, .swiper-pagination-horizontal.swiper-pagination-bullets .swiper-pagination-bullet {
+        background-color: var(--mainColor);
+        width: 11px;
+        height: 11px;
+    }
+
+    .swiper-pagination.swiper-pagination-clickable.swiper-pagination-bullets.swiper-pagination-horizontal{
+        bottom: 50px;
+    }
+    //* END SWIPER BULLET PAGINATION *
+
+    //* SWIPER PROGRESSBAR*
+    .swiper-pagination.swiper-pagination-progressbar.swiper-pagination-horizontal{
+        position: relative;
+        height: 10px;
+        background-color: transparent;
+        margin: 0 auto;
+    }
+    .swiper-pagination.swiper-pagination-progressbar.swiper-pagination-horizontal .swiper-pagination-progressbar-fill{
+        background-color: #F46036;
+    }
+    //* END SWIPER PROGRESSBAR*
+    .slider-shadow{
+        background: linear-gradient(360deg, rgba(27, 27, 27, 0.467) 0%, rgba(9, 9, 121, 0) 90%);
+        width: 100%;
+        height: 100vh;
+        position: absolute;
+        z-index: 2;
+        top: 0;
+    }
