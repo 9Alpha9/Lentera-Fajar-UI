@@ -8,8 +8,10 @@
     padding: 50px 30px;
   }
 }
+
 @media screen and (max-width: 1000px) {
   .contentWrapper {
     padding: 50px 30px;
   }
-}/*# sourceMappingURL=ContentWrapper.css.map */
+}
+/*# sourceMappingURL=ContentWrapper.css.map */

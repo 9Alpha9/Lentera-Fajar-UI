@@ -1,1 +1,9 @@
-{"version":3,"sources":[],"names":[],"mappings":"","file":"FooterComponent.css"}
+{
+    "version": 3,
+    "mappings": "",
+    "sources": [
+        "FooterComponent.scss"
+    ],
+    "names": [],
+    "file": "FooterComponent.css"
+}
