@@ -22,7 +22,7 @@ function HeaderWrapper(){
         spaceBetween={35}
         centeredSlides= {true}
         autoplay={{ 
-          delay: 2500, 
+          delay: 3500, 
           disableOnInteraction: false, 
         }}
         // navigation={true}

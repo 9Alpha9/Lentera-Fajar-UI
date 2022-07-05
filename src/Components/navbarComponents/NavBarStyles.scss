@@ -114,7 +114,7 @@
 //     }
 // }
 
-@media screen and (max-width: 1240px) {
+@media only screen and (max-width: 1240px) and (max-width: 1300px){
     .nav-toggler {
         display: block;
         cursor: pointer;
@@ -129,7 +129,7 @@
         width: 100%;
         height: 100%;
         background: var(--mainColor);
-        padding: 22rem 0;
+        padding: 220px 0;
         flex-direction: column;
         transform: translateX(100%);
         -webkit-transition: all 0.4s 0.3s ease-in-out;
@@ -144,6 +144,31 @@
         transition: all 0.4s 0.2s ease-in-out;
     }
 }
+
+
+// iPhone 6, 6s, 7, 8 Series
+@media only screen and (max-width:375px) and (max-width:892px ) {
+    .nav-menu {
+        position: fixed;
+        top: 0;
+        right: 0;
+        width: 100%;
+        height: 100%;
+        background: var(--mainColor);
+        padding: 140px 0;
+        flex-direction: column;
+        transform: translateX(100%);
+        -webkit-transition: all 0.4s 0.3s ease-in-out;
+        -moz-transition: all 0.4s 0.3s ease-in-out;
+        -o-transition: all 0.4s 0.3s ease-in-out;
+        transition: all 0.4s 0.3s ease-in-out;
+    }
+}
+
+
+
+
+
 /* Active Class */
 .nav-active {
     transform: translateX(0%);
